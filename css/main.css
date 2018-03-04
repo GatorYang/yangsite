@@ -9,6 +9,10 @@
   background-size: 100%;
 }
 
+.item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .dtl05 {
   width: 100%;
