@@ -1,10 +1,84 @@
 .header {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #f5d1ec;
-    border-radius: 0.3rem;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #f5d1ec;
+  border-radius: 0.3rem;
 
-    height: 100%;
-    /* background: url('../img/lol2.png') no-repeat fixed center center ; */
-    background-size: 100%;
-  }
+  height: 100%;
+  /* background: url('../img/lol2.png') no-repeat fixed center center ; */
+  background-size: 100%;
+}
+
+
+.dtl05 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.dtl05 img {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.dtl05 .dtl {
+  position: absolute;
+  background: #333;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 0 15px 0 15px;
+  left: -100%;
+  z-index: 1;
+  overflow: auto;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.dtl05 .dtl h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.dtl05 .dtl p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: #9d9c9c;
+  text-indent: 10px;
+}
+.dtl05 .dtl a {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #333;
+  float: right;
+  font-size: 13px;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.dtl05 .dtl a:hover {
+  background: #e6e6e6;
+  border: 1px solid #adadad;
+}
+.dtl05:hover img {
+  left: 100%;
+}
+.dtl05:hover .dtl {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
