@@ -14,7 +14,7 @@
   padding-bottom: 15px;
 }
 
-.dtl27 {
+.projInfo {
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -22,7 +22,7 @@
   -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
-.dtl27 img {
+.projInfo img {
   position: relative;
   width: 100%;
   top: 0;
@@ -32,7 +32,7 @@
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.dtl27 .dtl {
+.projInfo .detail {
   background: #f5d1ecc0;
   width: 100%;
   position: absolute;
@@ -46,16 +46,16 @@
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.dtl27 .dtl h3,
-.dtl27 .dtl p,
-.dtl27 .dtl a {
+.projInfo .detail h3,
+.projInfo .detail p,
+.projInfo .detail a {
   position: relative;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.dtl27 .dtl h3 {
+.projInfo .detail h3 {
   padding: 10px 15px;
   width: 100%;
   left: -100%;
@@ -67,7 +67,7 @@
   margin-bottom: 10px;
   
 }
-.dtl27 .dtl p {
+.projInfo .detail p {
   padding: 0 15px;
   font-size: 14px;
   margin-bottom: 10px;
@@ -76,7 +76,7 @@
   top: 30px;
   text-indent: 10px;
 }
-.dtl27 .dtl a {
+.projInfo .detail a {
   margin-right: 15px;
   background: #A87F9E;
   border: 1px solid #ccc;
@@ -89,18 +89,18 @@
   text-align: center;
   text-decoration: none;
 }
-.dtl27 .dtl a:hover {
+.projInfo .detail a:hover {
   background: #e6e6e6;
   border: 1px solid #adadad;
 }
-.dtl27:hover .dtl h3 {
+.projInfo:hover .detail h3 {
   left: 0;
 }
-.dtl27:hover .dtl p,
-.dtl27:hover .dtl a {
+.projInfo:hover .detail p,
+.projInfo:hover .detail a {
   top: 0;
 }
-.dtl27:hover .dtl {
+.projInfo:hover .detail {
   visibility: visible;
   opacity: 1;
 }
