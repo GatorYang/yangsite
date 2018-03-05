@@ -1,18 +1,19 @@
 .header {
   padding-top: 100px; 
   /* background-color: #f5d1ec; */
-  height: 100%;
   background: url('../img/building.png') no-repeat fixed center center;
   background-size: 100%;
   height: 100vh;
   text-shadow: 1px 1px 1px #d4d2d2;
 }
 
-.about{
+.exp{
   background-color: #D8B2DE;
+  padding-top: 70px;
 }
 
 .pjback{
+  padding-top: 70px;
   background: url('../img/building.png') no-repeat fixed center center;
   background-size: 100%;
   /* background-color: rgba(235, 212, 252, 0.788); */
@@ -113,3 +114,8 @@
   visibility: visible;
   opacity: 1;
 }
+
+/* Add a hover effect if you want 
+.fab:hover {
+  opacity: 0.7;
+}*/

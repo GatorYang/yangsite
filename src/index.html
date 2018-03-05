@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" media="all" href="css/main.css" />
     <link rel="stylesheet" media="all" href="css/timeline.css" />
     <link rel="stylesheet" media="all" href="css/bootstrap.css" />
@@ -18,26 +19,29 @@
     <link rel="icon" href="./img/yangcn.jpg">
 </head>
 
-<body>
+<body id="page-top">
     <!-- Nav Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #A87F9E;">
-        <a class="navbar-brand" href="#header">Jiayang Li</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #A87F9E;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Jiayang Li</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -45,7 +49,7 @@
     <section class="header" id="header">
         <div class="container">
             <div class="row align-items-center">
-                
+
                 <img src='./img/head.png' alt="headshot" class="img-responsive">
             </div>
             <h1>Hi</h1>
@@ -66,9 +70,9 @@
         </div>
     </section>
 
-    <!-- About -->
-    <section class="about" id="about">
-        <div class="container" >
+    <!-- experience -->
+    <section class="exp" id="experience">
+        <div class="container">
             <div class="row ">
                 <div class="col">
                     <h2 class="section-heading text-muted">Here are what I have done...</h2>
@@ -78,54 +82,62 @@
                 <div class="timeline-centered">
                     <article class="timeline-entry">
                         <div class="timeline-entry-inner">
-                            <div class="timeline-icon bg-success">
-                                <i class="entypo-feather"></i>
+                            <div class="timeline-icon " style="background-color: #A87F9E;">
+
                             </div>
                             <div class="timeline-label">
                                 <h2>
                                     <a href="#">Software Engineer Intern</a>
                                     <span>Ultimate Software</span>
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
+                                    vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis.
+                                    Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
                             </div>
                         </div>
                     </article>
-                    
+
                     <article class="timeline-entry">
                         <div class="timeline-entry-inner">
-                            <div class="timeline-icon bg-secondary">
-                                <i class="entypo-suitcase"></i>
+                            <div class="timeline-icon" style="background-color: #A87F9E;">
                             </div>
                             <div class="timeline-label">
                                 <h2>
                                     <a href="#">Technical Intern</a>
                                     <span>Empowered Prothetics</span>
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
+                                    vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis.
+                                    Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
                             </div>
                         </div>
                     </article>
 
-                    <article class="timeline-entry">
+                    <article class="timeline-entry begin">
                         <div class="timeline-entry-inner">
-                            <div class="timeline-icon bg-info">
-                                <i class="entypo-location"></i>
+                            <div class="timeline-icon" style="background-color: #A87F9E;">
+
                             </div>
                             <div class="timeline-label">
-                                    <h2>
-                                        <a href="#">Undergraduate Teaching Assistant</a>
-                                        <span>UF CISE Department</span>
-                                    </h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
-                                </div>
+                                <h2>
+                                    <a href="#">Undergraduate Teaching Assistant</a>
+                                    <span>UF CISE Department</span>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
+                                    vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis.
+                                    Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
+                            </div>
                         </div>
 
                     </article>
 
                     <article class="timeline-entry begin">
                         <div class="timeline-entry-inner">
-                            <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
-                                <i class="entypo-flight"></i> +
+                            <div class="timeline-icon" style="background-color: #A87F9E;">
+                                <i class="entypo-flight"></i>
                             </div>
                         </div>
                     </article>
@@ -139,7 +151,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col">
-                    <h2 class="section-heading text-muted">And here are some stuffs I made...</h2>
+                    <h2 class="section-heading">And here are some stuffs I made...</h2>
                 </div>
             </div>
             <div class="row">
@@ -208,8 +220,27 @@
             </div>
         </div>
     </section>
-    <br>
-    
+
+    <!-- Footer -->
+    <section style="background-color: #A87F9E;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <span>Made by Yang</span>
+                </div>
+                <div class="col-4">
+                    <button href="https://github.com/GatorYang" class="fab fa-github fa-2x"></button>
+                    <a class="fab fa-linkedin fa-2x"></a>
+                    <a class="fab fa-instagram fa-2x"></a>
+                    <a class="fab fa-twitter fa-2x"></a>
+                </div>
+                <div class="col-4">
+                    <span class="copyright"> &copy; Jiayang Li</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -218,6 +249,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>
 
 </html>

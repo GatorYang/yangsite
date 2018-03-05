@@ -15,6 +15,8 @@ img {
 
 .img-thumbnail {
     background-color: #fff;
+    
+
     border: 1px solid #ededf0;
     border-radius: 3px;
     display: inline-block;
@@ -32,6 +34,9 @@ img {
     border-radius: 50%;
 }
 
+.img-ulti{
+    background: url('../img/building.png');
+}
 .timeline-centered {
     position: relative;
     margin-bottom: 30px;
@@ -183,6 +188,7 @@ img {
 
             .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
                 background: #fff;
+                
                 color: #737881;
                 display: block;
                 width: 40px;
@@ -213,7 +219,7 @@ img {
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-success {
-                    background-color: #00a651;
+                    background: url('../img/ultimate.png');
                     color: #fff;
                 }
 
