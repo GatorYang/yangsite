@@ -2,21 +2,28 @@
   padding-top: 100px; 
   /* background-color: #f5d1ec; */
   background: url('../img/building.png') no-repeat fixed center center;
-  background-size: 100%;
+  background-size: cover;
   height: 100vh;
   text-shadow: 1px 1px 1px #d4d2d2;
 }
 
 .exp{
-  background-color: #D8B2DE;
+  background-color: rgba(196, 163, 201, 0.904);
   padding-top: 70px;
 }
 
 .pjback{
   padding-top: 70px;
-  background: url('../img/building.png') no-repeat fixed center center;
-  background-size: 100%;
+  padding-bottom: 50px;
+  background: url('../img/cloud.png') no-repeat fixed center center;
+  background-size: cover;
   /* background-color: rgba(235, 212, 252, 0.788); */
+}
+
+.contact{
+  background-color: #DEB2BD;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .project{
@@ -116,9 +123,7 @@
 }
 
 
-.fa-beat {
-  animation:fa-beat 5s ease infinite;
-}
+
 @keyframes fa-beat {
   0% {
     transform:scale(1);
@@ -147,7 +152,8 @@
 }
 
 .heart {
-  color:red;
+  color:rgb(231, 69, 69);
+  animation:fa-beat 5s ease infinite;
 }
 
 /* Add a hover effect if you want 
