@@ -29,6 +29,7 @@
 .ending{
   padding-top: 10px;
   background-color: #A87F9E;
+  color: rgba(255, 255, 255, 0.63);
 }
 
 .project{
@@ -36,132 +37,154 @@
   padding-bottom: 15px;
 }
 
-.projInfo {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-}
-.projInfo img {
-  position: relative;
-  width: 100%;
-  top: 0;
-  left: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.projInfo .detail {
-  background: #f5d1ecc0;
-  width: 100%;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.projInfo .detail h3,
-.projInfo .detail p,
-.projInfo .detail a {
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.projInfo .detail h3 {
-  padding: 10px 15px;
-  width: 100%;
-  left: -100%;
-  background: #A87F9E;
-  color: #fff;
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 10px;
+/* project sectio hover affects */
+  .projInfo {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+  .projInfo img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .projInfo .detail {
+    background: #f5d1ecc0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .projInfo .detail h3,
+  .projInfo .detail p,
+  .projInfo .detail a {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .projInfo .detail h3 {
+    padding: 10px 15px;
+    width: 100%;
+    left: -100%;
+    background: #A87F9E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  .projInfo .detail p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    top: 30px;
+    text-indent: 10px;
+  }
+  .projInfo .detail a {
+    margin-right: 15px;
+    background: #A87F9E;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: rgb(255, 253, 253);
+    top: 30px;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .projInfo .detail a:hover {
+    background: #e6e6e6;
+    border: 1px solid #adadad;
+  }
+  .projInfo:hover .detail h3 {
+    left: 0;
+  }
+  .projInfo:hover .detail p,
+  .projInfo:hover .detail a {
+    top: 0;
+  }
+  .projInfo:hover .detail {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/*  */
+
+/* footer beating heart*/
+  .heart:hover {
+    color:rgb(255, 0, 0);
+    -webkit-animation: heart 0.5s ease-in-out infinite both;
+            animation: heart 0.5s ease-in-out infinite both;
+  }
+
+  .heart {
+    color:rgba(231, 69, 69, 0.808);
+    -webkit-animation: heart 1s ease-in-out infinite both;
+            animation: heart 1s ease-in-out infinite both;
+  }
   
-}
-.projInfo .detail p {
-  padding: 0 15px;
-  font-size: 14px;
-  margin-bottom: 10px;
-  line-height: 1.2;
-  color: rgb(0, 0, 0);
-  top: 30px;
-  text-indent: 10px;
-}
-.projInfo .detail a {
-  margin-right: 15px;
-  background: #A87F9E;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  color: rgb(255, 253, 253);
-  top: 30px;
-  float: right;
-  font-size: 13px;
-  padding: 2px 5px;
-  text-align: center;
-  text-decoration: none;
-}
-.projInfo .detail a:hover {
-  background: #e6e6e6;
-  border: 1px solid #adadad;
-}
-.projInfo:hover .detail h3 {
-  left: 0;
-}
-.projInfo:hover .detail p,
-.projInfo:hover .detail a {
-  top: 0;
-}
-.projInfo:hover .detail {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-
-@keyframes fa-beat {
+@-webkit-keyframes heart {
   0% {
-    transform:scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
-  5% {
-    transform:scale(1.25);
-  }
-  20% {
-    transform:scale(1);
-  }
-  30% {
-    transform:scale(1);
-  }
-  35% {
-    transform:scale(1.25);
+  25% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
   }
   50% {
-    transform:scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
-  55% {
-    transform:scale(1.25);
+  75% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
   }
-  70% {
-    transform:scale(1);
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
-
-.heart {
-  color:rgb(231, 69, 69);
-  animation:fa-beat 5s ease infinite;
+@keyframes heart {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
-
-/* Add a hover effect if you want 
-.fab:hover {
-  opacity: 0.7;
-}*/
