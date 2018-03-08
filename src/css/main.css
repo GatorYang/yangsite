@@ -26,6 +26,14 @@
   padding-bottom: 50px;
 }
 
+.social{
+  color:rgb(109, 109, 109);
+}
+
+.social:hover{
+  color:#A87F9E;
+}
+
 .ending{
   padding-top: 10px;
   background-color: #A87F9E;
@@ -144,47 +152,47 @@
             animation: heart 1s ease-in-out infinite both;
   }
   
-@-webkit-keyframes heart {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+  @-webkit-keyframes heart {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    25% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+    50% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    75% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-  25% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
+  @keyframes heart {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    25% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+    50% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    75% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  75% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-@keyframes heart {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  25% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  75% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
