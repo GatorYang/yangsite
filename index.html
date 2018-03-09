@@ -14,13 +14,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" media="all" href="./src/css/main.css" />
     <link rel="stylesheet" media="all" href="./src/css/timeline.css" />
+    <link rel="stylesheet" media="all" href="./src/css/animation.css" />
     <link rel="stylesheet" media="all" href="./src/css/bootstrap.css" />
     <link rel="stylesheet" media="all" href="./src/css/bootstrap-grid.css" />
     <title>Jiayang Li</title>
     <link rel="icon" href="./src/img/yangcn.jpg">
 </head>
 
-<body id="page-top">
+<body id="page-top" style="background-color: #f5d1ec;">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #A87F9E;">
         <div class="container">
@@ -31,6 +32,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#header">About</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
                     </li>
@@ -47,26 +51,29 @@
 
     <!-- Header -->
     <section class="header" id="header">
-        <div class="container text-focus-in">
-            <div class="row align-items-center ">
+        <div class="container">
+            <div class="row align-items-center text-focus-in">
 
                 <img src='./src/img/head.png' alt="headshot" class="img-responsive">
             </div>
-            <h1>Hi</h1>
-            <p>My name is Yang and I'm an aspiring Software Developer.
-            </p>
-            <p>
-                Currently I am interning at
-                <a href="https://www.ultimatesoftware.com/" target="_blank" style="color:#509e2f">Ultimate Software</a> as a Software Enginner and I'm a sophmore at University of Florida studying Computer
-                Science.
-            </p>
-            <p>
-                Check out my
-                <a href="./src/resume.pdf" target="_blank" style="color:#696868">Résumé</a>
-                and let's get connected on
-                <a href="https://www.linkedin.com/in/ufjiayang/" target="_blank" style="color:#3e8597">LinkedIn</a>!
-            </p>
-            <br>
+            <div>
+                <h1 class="text-focus-in-1">Hi</h1>
+
+                <p class="text-focus-in-2">My name is Yang and I'm an aspiring Software Developer.
+                </p>
+                <p class="text-focus-in-3">
+                    Currently I am interning at
+                    <a href="https://www.ultimatesoftware.com/" target="_blank" style="color:#509e2f">Ultimate Software</a> as a Software Enginner and I'm a sophmore at University of Florida studying Computer
+                    Science.
+                </p>
+                <p class="text-focus-in-3">
+                    Check out my
+                    <a href="./src/resume.pdf" target="_blank" style="color:#696868">Résumé</a>
+                    and let's get connected on
+                    <a href="https://www.linkedin.com/in/ufjiayang/" target="_blank" style="color:#3e8597">LinkedIn</a>!
+                </p>
+                <br>
+            </div>
         </div>
     </section>
 
@@ -80,7 +87,7 @@
             </div>
             <div class="row">
                 <div class="timeline-centered">
-                    <article class="timeline-entry">
+                    <article class="timeline-entry begin">
                         <div class="timeline-entry-inner">
                             <div class="timeline-icon " style="background-color: #A87F9E;">
 
@@ -89,23 +96,7 @@
                                 <h2>
                                     <a href="#">Software Engineer Intern</a>
                                     <span>Ultimate Software</span>
-                                </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
-                                    vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis.
-                                    Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="timeline-entry">
-                        <div class="timeline-entry-inner">
-                            <div class="timeline-icon" style="background-color: #A87F9E;">
-                            </div>
-                            <div class="timeline-label">
-                                <h2>
-                                    <a href="#">Technical Intern</a>
-                                    <span>Empowered Prothetics</span>
+                                    <a style="float:right; color:#737881c7">January 2017 - Present</a>
                                 </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
@@ -124,6 +115,7 @@
                                 <h2>
                                     <a href="#">Undergraduate Teaching Assistant</a>
                                     <span>UF CISE Department</span>
+                                    <a style="float:right; color:#737881c7">August 2017 - December 2017</a>
                                 </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
@@ -132,6 +124,24 @@
                             </div>
                         </div>
 
+                    </article>
+
+                    <article class="timeline-entry begin">
+                        <div class="timeline-entry-inner">
+                            <div class="timeline-icon" style="background-color: #A87F9E;">
+                            </div>
+                            <div class="timeline-label">
+                                <h2>
+                                    <a href="#">Technical Intern</a>
+                                    <span>Empowered Prothetics</span>
+                                    <a style="float:right; color:#737881c7">May 2017 - August 2017</a>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Phasellus faucibus scelerisque eleifend donec pretium
+                                    vulputate sapien. Elementum sagittis vitae et leo duis. Amet risus nullam eget felis.
+                                    Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
+                            </div>
+                        </div>
                     </article>
 
                     <article class="timeline-entry begin">
@@ -289,7 +299,7 @@
                 </div>
                 <div class="col">
                     <p> Backgrounds by
-                        <a href="https://elevatedcross-ing.tumblr.com/" target="_blank" style="color:rgb(109, 109, 109)" >elevatedcross</a>
+                        <a href="https://elevatedcross-ing.tumblr.com/" target="_blank" style="color:rgb(109, 109, 109)">elevatedcross</a>
                     </p>
                 </div>
                 <div class="col">

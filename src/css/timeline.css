@@ -289,7 +289,7 @@ img {
                     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
                         -webkit-opacity: .6;
                         -moz-opacity: .6;
-                        opacity: .6;
+                        opacity: .8;
                         -ms-filter: alpha(opacity=60);
                         filter: alpha(opacity=60);
                     }
