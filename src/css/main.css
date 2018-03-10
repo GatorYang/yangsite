@@ -3,7 +3,8 @@
   /* background-color: #f5d1ec; */
   background: url('../img/building.png') no-repeat fixed center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   text-shadow: 0 0 18px #d4d2d2;
 }
 
@@ -17,7 +18,8 @@
   padding-bottom: 50px;
   background: url('../img/cloud.png') no-repeat fixed center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   /* background-color: rgba(235, 212, 252, 0.788); */
 }
 
