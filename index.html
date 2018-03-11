@@ -16,6 +16,23 @@
 
     gtag('config', 'UA-115530575-1');
     </script>
+
+    <script>
+    /**
+    * Function that tracks a click on an outbound link in Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+    * using 'navigator.sendBeacon' in browser that support it.
+    */
+    var trackOutboundLink = function(url) {
+    gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': url,
+        'transport_type': 'beacon',
+        'event_callback': function(){document.location = url;}
+    });
+    }
+    </script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -81,7 +98,7 @@
                     Check out my
                     <a href="http://jiayang-li.com/src/resume.pdf?pdf=Services-Brochure" target="_blank" style="color:#696868">Résumé</a>
                     and let's get connected on
-                    <a href="https://www.linkedin.com/in/ufjiayang/" target="_blank" style="color:#25525e">LinkedIn</a>!
+                    <a href="https://www.linkedin.com/in/ufjiayang/" target="_blank" style="color:#25525e" onclick="trackOutboundLink('https://www.linkedin.com/in/ufjiayang/'); return false;">LinkedIn</a>!
                 </p>
                 <p class="text-focus-in-3"> <i class="fas fa-wrench"></i> This website is still under construction, please check back later!</p>
                 <br>
