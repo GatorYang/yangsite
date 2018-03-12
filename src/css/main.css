@@ -172,3 +172,30 @@
 .icon-devpost:before {
   content: "\e900";
 }
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-file-text:before {
+  content: "\e926";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-envelope:before {
+  content: "\e901";
+}
