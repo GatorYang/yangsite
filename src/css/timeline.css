@@ -268,7 +268,7 @@ img {
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
                     color: #737881;
                     font-family: "Noto Sans",sans-serif;
-                    font-size: 12px;
+                    font-size: 16px;
                     margin: 0;
                     line-height: 1.428571429;
                 }
@@ -278,7 +278,7 @@ img {
                     }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-                    font-size: 16px;
+                    font-size: 18px;
                     margin-bottom: 10px;
                 }
 

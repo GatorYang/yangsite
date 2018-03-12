@@ -5,11 +5,12 @@
   background-size: cover;
   min-height: 100vh;
   height: auto;
-  text-shadow: 0 0 18px #d4d2d2;
+  text-shadow: 0 0 15px #d4d2d2;
+  font-size: 16px;
 }
 
 .exp{
-  background-color: rgba(196, 163, 201, 0.904);
+  background-color: #B59BAF;
   padding-top: 70px;
 }
 
@@ -169,6 +170,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 .icon-devpost:before {
   content: "\e900";
 }
@@ -198,4 +207,10 @@
 }
 .icon-envelope:before {
   content: "\e901";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-heart-broken:before {
+  content: "\e9db";
 }
