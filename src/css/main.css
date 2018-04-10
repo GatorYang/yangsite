@@ -5,7 +5,9 @@
   background-size: cover;
   min-height: 100vh;
   height: auto;
-  text-shadow: 0 0 15px #d4d2d2;
+  text-shadow: 0 0 15px #35343496;
+  /* text-shadow: 0 0 15px #d4d2d2; */
+  color: #e6e6e6;
   font-size: 16px;
 }
 
