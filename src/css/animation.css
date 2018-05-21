@@ -63,6 +63,9 @@
 .text-focus-in-3 {
   animation: text-focus-in 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
 }
+.text-focus-in-4 {
+  animation: text-focus-in 1.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.2s both;
+}
  @keyframes text-focus-in {
   0% {
     filter: blur(12px);
